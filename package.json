@@ -1,0 +1,46 @@
+{
+  "name": "restful_api_node_template",
+  "version": "1.0.0",
+  "description": "A RESTful API project template in Node.js with TypeScript",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julio-bandeira/RESTful_API_Node_Template.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "nodejs",
+    "template",
+    "express"
+  ],
+  "author": "Julio Bandeira de Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julio-bandeira/RESTful_API_Node_Template/issues"
+  },
+  "homepage": "https://github.com/julio-bandeira/RESTful_API_Node_Template#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.13.8",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
